@@ -98,20 +98,20 @@ namespace AppLatihan1370
             
             if (checkBox1.Checked == true)
             {
-                book1 = Convert.ToInt32("65300");
+                buku1 = Convert.ToInt32("65300");
             }
             else
             {
-                book1 = Convert.ToInt32("0");
+                buku1 = Convert.ToInt32("0");
             }
 
             if (checkBox2.Checked == true)
             {
-                book2 = Convert.ToInt32("42750");
+                buku2 = Convert.ToInt32("42750");
             }
             else
             {
-                book2 = Convert.ToInt32("0");
+                buku2 = Convert.ToInt32("0");
             }
 
             if (checkBox3.Checked == true)
