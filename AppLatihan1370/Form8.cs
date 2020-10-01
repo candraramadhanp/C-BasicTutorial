@@ -19,12 +19,12 @@ namespace AppLatihan1370
             InitializeComponent();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
+        private void groupBox1_Masuk(object sender, EventArgs e)
         {
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void label2_Klik(object sender, EventArgs e)
         {
 
         }
@@ -44,7 +44,7 @@ namespace AppLatihan1370
             else
             {
                 groupBox2.Enabled = false;
-                listBox1.Items.Remove("    - " + checkBox1.Text);
+                listBox1.Items.Remove("disi nganu lah" + checkBox1.Text);
             }
         }
 
@@ -53,12 +53,12 @@ namespace AppLatihan1370
             if (checkBox2.Checked == true)
             {
                 groupBox2.Enabled = true;
-                listBox1.Items.Add("    - " + checkBox2.Text);
+                listBox1.Items.Add("disi nganu lah" + checkBox2.Text);
             }
             else
             {
                 groupBox2.Enabled = false;
-                listBox1.Items.Remove("    - " + checkBox2.Text);
+                listBox1.Items.Remove("disi nganu lah" + checkBox2.Text);
             }
         }
 
@@ -67,12 +67,12 @@ namespace AppLatihan1370
             if (checkBox4.Checked == true)
             {
                 groupBox2.Enabled = true;
-                listBox1.Items.Add("    - " + checkBox4.Text);
+                listBox1.Items.Add("disi nganu lah" + checkBox4.Text);
             }
             else
             {
                 groupBox2.Enabled = false;
-                listBox1.Items.Remove("    - " + checkBox4.Text);
+                listBox1.Items.Remove("disi nganu lah" + checkBox4.Text);
             }
         }
 
@@ -98,20 +98,20 @@ namespace AppLatihan1370
             
             if (checkBox1.Checked == true)
             {
-                book1 = Convert.ToInt32("65300");
+                buku1 = Convert.ToInt32("65300");
             }
             else
             {
-                book1 = Convert.ToInt32("0");
+                buku1 = Convert.ToInt32("0");
             }
 
             if (checkBox2.Checked == true)
             {
-                book2 = Convert.ToInt32("42750");
+                buku2 = Convert.ToInt32("42750");
             }
             else
             {
-                book2 = Convert.ToInt32("0");
+                buku2 = Convert.ToInt32("0");
             }
 
             if (checkBox3.Checked == true)
